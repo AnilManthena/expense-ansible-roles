@@ -1,7 +1,7 @@
-[unit]
+[Unit]
 Description = Backend Service
 
-[service]
+[Service]
 User=expense
 Environment=DB_HOST="{{ DB_HOST }}"
 ExecStart=/bin/node /app/index.js
